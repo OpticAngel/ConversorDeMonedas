@@ -1,0 +1,93 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7fa;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.header {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 3px solid #007bff;
+}
+
+.title {
+    font-size: 3em;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.form-conversor {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+button.btn-convertir {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.btn-convertir:hover {
+    background-color: #0056b3;
+}
+
+/* Resultados */
+.result {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result h3 {
+    font-size: 1.5em;
+}
+
+/* Historial de conversiones */
+ul.list-group {
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+ul.list-group .list-group-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.footer {
+    text-align: center;
+    background-color: #343a40;
+    color: white;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
