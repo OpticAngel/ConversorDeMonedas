@@ -7,11 +7,11 @@ body {
 }
 
 .header {
-    background-color: #343a40;
+    background-color: #90af6d;
     color: white;
     text-align: center;
     padding: 30px;
-    border-bottom: 3px solid #007bff;
+    border-bottom: 3px solid #030303;
 }
 
 .title {
